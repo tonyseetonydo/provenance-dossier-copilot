@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+bun.lockb
+
+# Next.js and build output
+.next/
+out/
+build/
+dist/
+next-env.d.ts
+.vercel/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env*
+!.env.example
+*.pem
+*.key
+
+# Generated retrieval reports and provider responses
+/data/validation/*.json
+
+# Local editor files and logs
+.DS_Store
+.idea/
+.vscode/
+*.log
